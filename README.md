@@ -7,6 +7,6 @@ Credits to @miss_sudo for the disclosure
 
 Usage: ./pwnacle.rb target_url payload_url
 
-This exploit uses both CVEs to upload a .jsp shell from your payload_url which is then reachable from /reports/images/<shell>.jsp
+This exploit uses both CVEs to upload a .jsp shell from your payload_url which is then reachable from /reports/images/shell.jsp
 
 payload_url should contain a .jsp payload but it could be anything really with some modification.
